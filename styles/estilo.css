@@ -126,7 +126,10 @@ header .navbar-nav .nav-item5 {
 .seccion-3 .container .row .imagen-seccion3 .img-fluid {
   border-radius: 5%;
 }
-.seccion-3 .container .row .imagen-seccion3 .pseccion-3 {
+.seccion-3 .container .row .contentseccion-3 .h2seccion-3 {
+  animation: tracking-in-contract 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+.seccion-3 .container .row .contentseccion-3 .pseccion-3 {
   text-align: justify;
 }
 @keyframes flip-in-hor-bottom {
@@ -136,6 +139,19 @@ header .navbar-nav .nav-item5 {
   }
   100% {
     transform: rotateX(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
     opacity: 1;
   }
 }
@@ -165,11 +181,6 @@ footer {
   color: white;
 }
 .card .card-body a:hover {
-  background-color: #7a6174;
-  color: white;
-}
-
-.card-body a:hover {
   background-color: #7a6174;
   color: white;
 }
