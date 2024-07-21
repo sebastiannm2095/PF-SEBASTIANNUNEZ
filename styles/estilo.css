@@ -6,7 +6,8 @@
   box-sizing: border-box;
   font-family: "raleway";
 }
-
+ 
+/* Define estilo del header y menu navbar*/
 header {
   background-color: #b1b7d1;
 }
@@ -44,6 +45,9 @@ header .navbar-nav .nav-item5 {
     opacity: 1;
   }
 }
+
+
+/* DEFINE ESTILO SECCION HERO EN PAGINA INDEX*/
 .hero {
   position: relative;
   height: 100vh;
@@ -70,6 +74,8 @@ header .navbar-nav .nav-item5 {
   color: black;
 }
 
+
+/* DEFINE ESTILO SECCION-1*/
 .seccion-1 {
   background-color: #b1b7d1;
 }
@@ -96,6 +102,9 @@ header .navbar-nav .nav-item5 {
     opacity: 1;
   }
 }
+
+
+/* DEFINE ESTILO SECCION-2*/
 .seccion-2 .container .h2seccion-2 {
   text-align: center;
   margin-top: 3;
@@ -116,6 +125,8 @@ header .navbar-nav .nav-item5 {
   border-radius: 50%;
 }
 
+
+/*DEFINE ESTILO SECCION-3*/
 .seccion-3 {
   background-color: #b1b7d1;
 }
@@ -155,6 +166,8 @@ header .navbar-nav .nav-item5 {
     opacity: 1;
   }
 }
+
+/*DEFINE ESTILO DE LA SECCION CONTACTO*/
 .contact-section {
   width: 100%;
   margin: 0;
@@ -162,6 +175,8 @@ header .navbar-nav .nav-item5 {
   color: white;
 }
 
+
+/*DEFINE EL ESTILO DEL FOOTER DE TODAS LAS PAGINAS*/
 footer {
   background-color: black;
   color: white;
@@ -169,6 +184,7 @@ footer {
   text-align: center;
 }
 
+/* DEFINE ESTILO DE LA SECCION TARJETA UTILIZADA EN LAS PAGINAS CONSULTAS Y SERVICIOS Y RECETAS*/
 .card {
   transition: 1s;
 }
@@ -185,6 +201,7 @@ footer {
   color: white;
 }
 
+/* DEFINE ESTILO DE TODOS LOS BOTONES UTILIZADOS*/
 .btn {
   background-color: #b1b7d1;
   border-color: none;
@@ -195,6 +212,7 @@ footer {
   color: white;
 }
 
+/*DEFINE ESTILO DE ACORDION UTILIZADO EN SECCION PREGUNTAS FRECUENTES*/
 .accordion-button {
   background-color: #b1b7d1;
   border-color: none;
